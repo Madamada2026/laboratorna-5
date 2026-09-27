@@ -1,6 +1,7 @@
 import React from 'react';
 import CountdownTimer from './CountdownTimer';
 import MultiplicationTable from './MultiplicationTable';
+import UnitConverter from './UnitConverter';
 
 function App() {
   return (
@@ -8,6 +9,8 @@ function App() {
       <CountdownTimer />
       <hr style={{ margin: '40px 0', border: '0', borderTop: '2px dashed #ccc' }} />
       <MultiplicationTable />
+      <hr style={{ margin: '40px 0', border: '0', borderTop: '2px dashed #ccc' }} />
+      <UnitConverter />
     </div>
   );
 }
