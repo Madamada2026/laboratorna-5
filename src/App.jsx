@@ -1,7 +1,8 @@
 import React from 'react';
 import CountdownTimer from './CountdownTimer';
 import MultiplicationTable from './MultiplicationTable';
-import Calculator from './Calculator'; // Новий обов'язковий файл
+import Calculator from './Calculator';
+import ProductFilter from './ProductFilter'; // Наш новий обов'язковий четвертий файл
 import UnitConverter from './UnitConverter';
 import WeeklyScheduler from './WeeklyScheduler';
 
@@ -14,6 +15,8 @@ function App() {
       <MultiplicationTable />
       <hr style={{ margin: '40px 0', border: '0', borderTop: '2px dashed #ccc' }} />
       <Calculator />
+      <hr style={{ margin: '40px 0', border: '0', borderTop: '2px dashed #ccc' }} />
+      <ProductFilter />
       
       {/* Додаткова / Індивідуальна частина вашого проєкту */}
       <hr style={{ margin: '40px 0', border: '0', borderTop: '2px dashed #007bff', borderWidth: '3px' }} />
@@ -26,5 +29,3 @@ function App() {
 }
 
 export default App;
-
-
